@@ -1,0 +1,36 @@
+{
+  "name": "ts",
+  "version": "1.0.0",
+  "description": "typescript",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build:live",
+    "build": "tsc -p .",
+		"build:live": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
+		"test": "jest",
+		"test:watch": "npm t -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carwbrown/ts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carwbrown/ts/issues"
+  },
+  "homepage": "https://github.com/carwbrown/ts#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.9",
+    "jest": "^24.1.0",
+    "nodemon": "^1.18.10",
+    "ts-jest": "^24.0.0",
+    "ts-node": "^8.0.2",
+    "tslint": "^5.13.1",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-config-standard": "^8.0.1",
+    "typescript": "^3.3.3333"
+  },
+	"dependencies": {}
+}
