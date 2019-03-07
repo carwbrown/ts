@@ -1,3 +1,4 @@
+// TODO: apply OOP principles
 export class Bottles{
 	verse(number: number): string{
 		switch(number) {
