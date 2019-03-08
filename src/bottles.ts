@@ -1,4 +1,11 @@
-// TODO: apply OOP principles
+/* 
+* //TODO:
+* create functions in Bottles class
+* create helper class
+* move functions to helper class
+* apply polymorphsim principals
+*/
+
 export class Bottles{
 	verse(number: number): string{
 		switch(number) {
